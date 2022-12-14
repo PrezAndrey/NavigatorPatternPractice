@@ -7,16 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		556CEA4B294A114400D84148 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556CEA4A294A114400D84148 /* MainCoordinator.swift */; };
+		5580B242293A2AFA00A884F1 /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5580B241293A2AFA00A884F1 /* Storyboarded.swift */; };
 		55DBD43A2939FCB700C519E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DBD4392939FCB700C519E8 /* AppDelegate.swift */; };
 		55DBD43C2939FCB700C519E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DBD43B2939FCB700C519E8 /* SceneDelegate.swift */; };
 		55DBD43E2939FCB700C519E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DBD43D2939FCB700C519E8 /* ViewController.swift */; };
 		55DBD4412939FCB700C519E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55DBD43F2939FCB700C519E8 /* Main.storyboard */; };
 		55DBD4432939FCB800C519E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55DBD4422939FCB800C519E8 /* Assets.xcassets */; };
 		55DBD4462939FCB800C519E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55DBD4442939FCB800C519E8 /* LaunchScreen.storyboard */; };
-		55DBD44E2939FF5500C519E8 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DBD44D2939FF5500C519E8 /* File.swift */; };
+		55DBD44E2939FF5500C519E8 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DBD44D2939FF5500C519E8 /* Coordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		556CEA4A294A114400D84148 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		5580B241293A2AFA00A884F1 /* Storyboarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
 		55DBD4362939FCB700C519E8 /* NavigatorPatternPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigatorPatternPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55DBD4392939FCB700C519E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55DBD43B2939FCB700C519E8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -25,7 +29,7 @@
 		55DBD4422939FCB800C519E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55DBD4452939FCB800C519E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		55DBD4472939FCB800C519E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		55DBD44D2939FF5500C519E8 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		55DBD44D2939FF5500C519E8 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,9 +63,11 @@
 			isa = PBXGroup;
 			children = (
 				55DBD4392939FCB700C519E8 /* AppDelegate.swift */,
-				55DBD44D2939FF5500C519E8 /* File.swift */,
+				5580B241293A2AFA00A884F1 /* Storyboarded.swift */,
+				55DBD44D2939FF5500C519E8 /* Coordinator.swift */,
 				55DBD43B2939FCB700C519E8 /* SceneDelegate.swift */,
 				55DBD43D2939FCB700C519E8 /* ViewController.swift */,
+				556CEA4A294A114400D84148 /* MainCoordinator.swift */,
 				55DBD43F2939FCB700C519E8 /* Main.storyboard */,
 				55DBD4422939FCB800C519E8 /* Assets.xcassets */,
 				55DBD4442939FCB800C519E8 /* LaunchScreen.storyboard */,
@@ -142,7 +148,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				55DBD43E2939FCB700C519E8 /* ViewController.swift in Sources */,
-				55DBD44E2939FF5500C519E8 /* File.swift in Sources */,
+				556CEA4B294A114400D84148 /* MainCoordinator.swift in Sources */,
+				55DBD44E2939FF5500C519E8 /* Coordinator.swift in Sources */,
+				5580B242293A2AFA00A884F1 /* Storyboarded.swift in Sources */,
 				55DBD43A2939FCB700C519E8 /* AppDelegate.swift in Sources */,
 				55DBD43C2939FCB700C519E8 /* SceneDelegate.swift in Sources */,
 			);
